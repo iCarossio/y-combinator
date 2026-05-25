@@ -1,10 +1,14 @@
+<p align="center">
+  <img src="assets/y-combinator-logo-vector.svg" alt="Y Combinator" width="420">
+</p>
+
 # How to Get Into Y Combinator
 
 # Introduction
 
 ## Who am I?
 
-Antoine Carossio, YC W23. Since then, I've mentored quite a few of startups that got into the batch. This guide is constantly evolving: I'm writing it as the most recent and accurate compilation of the remarks, patterns, and lessons I've noticed about getting admitted. It's a rigorous, methodical approach.
+[Antoine Carossio](https://www.linkedin.com/in/acarossio), YC W23. Since then, I've mentored quite a few of startups that got into the batch. This guide is constantly evolving: I'm writing it as the most recent and accurate compilation of the remarks, patterns, and lessons I've noticed about getting admitted. It's a rigorous, methodical approach.
 
 I also treat YC the way I've treated every other competitive selection process I've been through. I'm used to high-stakes entrance exams, having passed some of the most selective ones in France. YC is just another one: a process you can reverse-engineer and prepare for.
 
