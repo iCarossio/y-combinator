@@ -131,7 +131,7 @@ Leave nothing to chance:
 
 This guide will keep evolving as I notice new patterns. If it helped, or if you want a second pair of eyes on your application, reach out — I read every message, and I've helped a number of founders sharpen the exact things this book covers.
 
-Contact me on LinkedIn: [linkedin.com/in/acarossio](https://www.linkedin.com/in/acarossio), or find more of my writing on AI and security at [caross.io](https://caross.io).
+Contact me on LinkedIn: [linkedin.com/in/acarossio](https://www.linkedin.com/in/acarossio) or by email at antoine[at]caross.io, or find more of my writing on AI and security at [caross.io](https://caross.io).
 
 <!-- author: About the Author -->
 

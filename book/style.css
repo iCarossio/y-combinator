@@ -578,6 +578,15 @@ section.matter  > .body > p:first-of-type { text-indent: 0; }
   font-size: 8pt; font-weight: 700; line-height: 1;
   font-family: var(--sans);
 }
+.cta__email {
+  font-weight: 400;
+  color: var(--soft);
+}
+.cta__email::before {
+  content: "·";
+  margin-right: 6pt;
+  color: var(--soft);
+}
 
 /* End-of-book mark */
 .colophon-end {

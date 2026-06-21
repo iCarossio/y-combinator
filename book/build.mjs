@@ -46,7 +46,7 @@ const ctaBox = cfg.cta
   ? `<aside class="cta">
   <div class="cta__title">${esc(cfg.cta.title)}</div>
   <p class="cta__text">${esc(cfg.cta.text)}</p>
-  <div class="cta__action"><span class="cta__in">in</span><a href="${esc(cfg.linkedinUrl)}">${esc(cfg.cta.action)}</a></div>
+  <div class="cta__action"><span class="cta__in">in</span><a href="${esc(cfg.linkedinUrl)}">${esc(cfg.cta.action)}</a>${cfg.email ? `<span class="cta__email">${esc(cfg.email)}</span>` : ""}</div>
 </aside>`
   : "";
 

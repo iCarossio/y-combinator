@@ -76,7 +76,7 @@ Then run `npm run build`.
 
 ## Questions?
 
-Contact me on LinkedIn: [linkedin.com/in/acarossio](https://www.linkedin.com/in/acarossio).
+Contact me on LinkedIn: [linkedin.com/in/acarossio](https://www.linkedin.com/in/acarossio) or by email at antoine[at]caross.io.
 
 ---
 

@@ -12,10 +12,11 @@
   "escapeLogo": "../assets/escape-logo.svg",
   "linkedin": "linkedin.com/in/acarossio",
   "linkedinUrl": "https://www.linkedin.com/in/acarossio",
+  "email": "antoine[at]caross.io",
   "website": "caross.io",
   "cta": {
     "title": "Want a second pair of eyes?",
-    "text": "Follow me on LinkedIn and send me a message. I give founders direct mentoring on their YC application — and write recommendations for the ones I work closely with.",
+    "text": "Follow me on LinkedIn and send me a message or email. I give founders direct mentoring on their YC application and write recommendations for the ones I work closely with.",
     "action": "linkedin.com/in/acarossio"
   },
   "spineSeries": "A Founder's Field Guide",
