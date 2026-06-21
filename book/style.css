@@ -535,6 +535,50 @@ section.matter  > .body > p:first-of-type { text-indent: 0; }
 
 .body > p + p { text-indent: 1.4em; }
 
+/* Recurring call-to-action callout (end of each chapter) */
+.cta {
+  break-inside: avoid;
+  margin: 1.8em 0 0.3em;
+  padding: 0.62em 0.85em 0.7em;
+  background: #fff7f1;
+  border: 0.8pt solid #ffd9bf;
+  border-left: 3pt solid var(--yc);
+  border-radius: 5px;
+  font-family: var(--sans);
+}
+.cta__title {
+  font-size: 10.5pt;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.cta__text {
+  text-align: left;
+  text-indent: 0 !important;
+  font-size: 9pt;
+  line-height: 1.42;
+  color: #4a4a4a;
+  margin: 4pt 0 7pt;
+  hyphens: none;
+}
+.cta__action {
+  display: flex;
+  align-items: center;
+  gap: 6pt;
+  font-size: 9.5pt;
+  font-weight: 700;
+  color: var(--yc-deep);
+}
+.cta__action a { border: 0; color: inherit; }
+.cta__in {
+  display: inline-flex; align-items: center; justify-content: center;
+  width: 14pt; height: 14pt;
+  background: #0a66c2; color: #fff;
+  border-radius: 3px;
+  font-size: 8pt; font-weight: 700; line-height: 1;
+  font-family: var(--sans);
+}
+
 /* End-of-book mark */
 .colophon-end {
   page: plain;

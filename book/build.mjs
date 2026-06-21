@@ -41,6 +41,15 @@ cuts.forEach((c, i) => {
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
+// Recurring call-to-action callout (drives readers to the author's LinkedIn).
+const ctaBox = cfg.cta
+  ? `<aside class="cta">
+  <div class="cta__title">${esc(cfg.cta.title)}</div>
+  <p class="cta__text">${esc(cfg.cta.text)}</p>
+  <div class="cta__action"><span class="cta__in">in</span><a href="${esc(cfg.linkedinUrl)}">${esc(cfg.cta.action)}</a></div>
+</aside>`
+  : "";
+
 // ---- Build body HTML + collect TOC ----------------------------------------
 let chapterNo = 0;
 let currentPart = null;
@@ -77,7 +86,7 @@ for (const n of nodes) {
     <span class="chapter__num">${chapterNo}</span>
     <h2 class="chapter__title">${esc(n.title)}</h2>
   </header>
-  <div class="body">${bodyHtml}</div>
+  <div class="body">${bodyHtml}${ctaBox}</div>
 </section>`;
   } else if (n.type === "closing") {
     toc.push({ kind: "front", title: n.title, id });

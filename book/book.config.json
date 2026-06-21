@@ -11,7 +11,13 @@
   "logo": "../assets/y-combinator-logo-vector.svg",
   "escapeLogo": "../assets/escape-logo.svg",
   "linkedin": "linkedin.com/in/acarossio",
+  "linkedinUrl": "https://www.linkedin.com/in/acarossio",
   "website": "caross.io",
+  "cta": {
+    "title": "Want a second pair of eyes?",
+    "text": "Follow me on LinkedIn and send me a message. I give founders direct mentoring on their YC application — and write recommendations for the ones I work closely with.",
+    "action": "linkedin.com/in/acarossio"
+  },
   "spineSeries": "A Founder's Field Guide",
   "coverByline": "by the co-founder & CTO of Escape (YC W23 · $18M Series A)",
   "backTagline": "YC selection is a process you can reverse-engineer and prepare for.",
