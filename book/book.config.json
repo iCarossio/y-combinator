@@ -12,23 +12,24 @@
   "escapeLogo": "../assets/escape-logo.svg",
   "linkedin": "linkedin.com/in/acarossio",
   "linkedinUrl": "https://www.linkedin.com/in/acarossio",
-  "email": "antoine[at]caross.io",
   "website": "caross.io",
+  "contact": "caross.io/contact",
+  "contactUrl": "https://caross.io/contact/",
   "cta": {
     "title": "Want a second pair of eyes?",
-    "text": "Follow me on LinkedIn and send me a message or email. I give founders direct mentoring on their YC application and write recommendations for the ones I work closely with.",
+    "text": "Follow me on LinkedIn and send me a message, or reach out through my contact page. I give founders direct mentoring on their YC application and write recommendations for the ones I work closely with.",
     "action": "linkedin.com/in/acarossio"
   },
   "spineSeries": "A Founder's Field Guide",
   "coverByline": "by the co-founder & CTO of Escape (YC W23 · $18M Series A)",
   "backTagline": "YC selection is a process you can reverse-engineer and prepare for.",
-  "backBlurb": "Most applications are rejected for the same reasons. This guide breaks the written application and the 10-minute interview down into a single repeatable framework — product-market fit reasoning — and shows, concretely, how to answer any question the right way. It is written by a founder who went through W23 and has since coached startups into the batch.",
+  "backBlurb": "Most applications are rejected for the same reasons. This guide breaks the written application and the 10-minute interview down into a single repeatable framework (product-market fit reasoning) and shows, concretely, how to answer any question the right way. It is written by a founder who went through W23 and has since coached startups into the batch.",
   "backBullets": [
     "The PMF framework: the five pillars behind every answer",
-    "Why specificity is the universal tell — and how to add it",
+    "Why specificity is the universal tell, and how to add it",
     "How to prepare for the interview without over-rehearsing",
     "Recommendations, momentum, and applying every batch"
   ],
-  "escapeBlurb": "Escape is the AI-native offensive security platform. Its agents continuously discover, test, and fix vulnerabilities directly inside engineering workflows — attack-surface management, business-logic-aware DAST, and continuous AI pentesting. Founded in 2020 and a member of the YC W23 batch, Escape raised an $18M Series A led by Balderton Capital (with Uncorrelated Ventures, IRIS, and Y Combinator) and is trusted by 2,000+ security teams worldwide.",
+  "escapeBlurb": "Escape is the AI-native offensive security platform. Its agents continuously discover, test, and fix vulnerabilities directly inside engineering workflows: attack-surface management, business-logic-aware DAST, and continuous AI pentesting. Founded in 2020 and a member of the YC W23 batch, Escape raised an $18M Series A led by Balderton Capital (with Uncorrelated Ventures, IRIS, and Y Combinator) and is trusted by 2,000+ security teams worldwide.",
   "year": "2026"
 }

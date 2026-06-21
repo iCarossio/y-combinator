@@ -2,7 +2,7 @@
 
 ### Who am I?
 
-I'm [Antoine Carossio](https://www.linkedin.com/in/acarossio), co-founder and CTO of [Escape](https://escape.tech), the AI-native offensive security platform. I went through Y Combinator in the **W23** batch and took Escape from zero to 100+ enterprise customers and an **$18M Series A** led by Balderton Capital. Before Escape I was an AI researcher at Apple and a penetration tester for the French Ministry for the Armed Forces; I hold a double master's from École Polytechnique and HEC Paris, speak on AI and cybersecurity at RSA, Black Hat, and DEF CON, and was named to the Forbes 30 Under 30. (There's a fuller bio at the back of the book.)
+I'm [Antoine Carossio](https://caross.io), co-founder and CTO of [Escape](https://escape.tech), the AI-native offensive security platform. I went through Y Combinator in the **W23** batch and took Escape from zero to 100+ enterprise customers and an **$18M Series A** led by Balderton Capital. Before Escape I was an AI researcher at Apple and a penetration tester for the French Ministry for the Armed Forces; I hold a double master's from École Polytechnique and HEC Paris, speak on AI and cybersecurity at RSA, Black Hat, and DEF CON, and was named to the Forbes 30 Under 30. (There's a fuller bio at the back of the book.)
 
 Since my own batch, I've mentored quite a few startups that got into YC. This guide is constantly evolving: I'm writing it as the most recent and accurate compilation of the remarks, patterns, and lessons I've noticed about getting admitted. It's a rigorous, methodical approach.
 
@@ -33,11 +33,11 @@ No. You need to show that you understand and are actively working with your pers
 
 <!-- part: The Written Application -->
 
-<!-- chapter: Apply Now — and at Every Batch -->
+<!-- chapter: Apply Now, and at Every Batch -->
 
 This is anecdotal (based on what I've seen, not on any official YC policy), but in my experience, applying at every batch is not penalizing. The YC team appears to be good at tracking the progress of projects across applications and comparing your previous one with the new one. Specifically, if they gave you advice (say you made it to the interview but were rejected), my impression is that they check whether you acted on it. Treat this as a working assumption, not a rule: write each application as if the reviewer remembers the last one, and show what changed.
 
-<!-- chapter: The PMF Framework — Answer Any Question the Right Way -->
+<!-- chapter: The PMF Framework: Answer Any Question the Right Way -->
 
 The strategy is always the same:
 
@@ -51,7 +51,7 @@ On top of these, YC looks hard at **traction and momentum**, and momentum matter
 
 If you're ever in doubt or feel trapped, whatever the question, go back to the customer (or to a specific customer conversation) and build a logical line of reasoning that answers the question starting from something connected to the customer. But returning to the customer is a way to *reason*, not a way to *dodge*: still answer the actual question that was asked (see the interview section).
 
-<!-- chapter: Make It Understandable in Two Minutes — but Deep -->
+<!-- chapter: Make It Understandable in Two Minutes, but Deep -->
 
 Answer every long-text question the same way:
 
@@ -104,7 +104,7 @@ Comments (make sure to tell us how you know the founder(s)):
 
 <!-- part: The Interview -->
 
-<!-- chapter: Map the Question Space — Don't Memorize -->
+<!-- chapter: Map the Question Space: Don't Memorize -->
 
 The interview is short (around 10 minutes), fast, and highly repetitive: nearly every question is probing the same things (the pillars of the PMF framework above). So map the space. Feed your application to ChatGPT or Claude and have it generate the likely questions and the hardest follow-ups, then make sure you genuinely *know* the answer to each: the numbers, the customer stories, the reasoning.
 
@@ -129,9 +129,11 @@ Leave nothing to chance:
 
 <!-- closing: Any Questions? -->
 
-This guide will keep evolving as I notice new patterns. If it helped, or if you want a second pair of eyes on your application, reach out — I read every message, and I've helped a number of founders sharpen the exact things this book covers.
+This guide will keep evolving as I notice new patterns. If it helped, or if you want a second pair of eyes on your application, reach out. I read every message, and I've helped a number of founders sharpen the exact things this book covers.
 
-Contact me on LinkedIn: [linkedin.com/in/acarossio](https://www.linkedin.com/in/acarossio) or by email at antoine[at]caross.io, or find more of my writing on AI and security at [caross.io](https://caross.io).
+Contact me on LinkedIn: [linkedin.com/in/acarossio](https://www.linkedin.com/in/acarossio), or reach out through my contact page at [caross.io/contact](https://caross.io/contact/). You'll find more of my writing on AI and security at [caross.io](https://caross.io).
+
+This guide is **free and open source**. The full source lives on GitHub at [github.com/iCarossio/y-combinator](https://github.com/iCarossio/y-combinator). If it helped you, please star the repository: it's the simplest way to help other founders find it.
 
 <!-- author: About the Author -->
 

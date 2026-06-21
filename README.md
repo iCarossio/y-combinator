@@ -9,7 +9,7 @@
 <p align="center">
   <a href="dist/How-to-Get-Into-Y-Combinator.pdf"><strong>📕 Download the book (PDF)</strong></a>
   &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/acarossio">Author on LinkedIn</a>
+  <a href="https://caross.io">caross.io</a>
 </p>
 
 <p align="center">
@@ -22,14 +22,14 @@
 
 ## About
 
-A short, opinionated book on getting into Y Combinator, written by [Antoine Carossio](https://www.linkedin.com/in/acarossio) — co-founder & CTO of [Escape](https://escape.tech) (YC W23, $18M Series A), Forbes 30 Under 30, ex-Apple AI researcher, and a speaker on AI & cybersecurity at RSA, Black Hat, and DEF CON. It treats YC selection the way you'd treat any competitive entrance exam: a process you can reverse-engineer and prepare for. It covers the written application, the PMF framework behind answering any question, specificity, recommendations, and the interview.
+A short, opinionated book on getting into Y Combinator, written by [Antoine Carossio](https://caross.io), co-founder & CTO of [Escape](https://escape.tech) (YC W23, $18M Series A), Forbes 30 Under 30, ex-Apple AI researcher, and a speaker on AI & cybersecurity at RSA, Black Hat, and DEF CON. It treats YC selection the way you'd treat any competitive entrance exam: a process you can reverse-engineer and prepare for. It covers the written application, the PMF framework behind answering any question, specificity, recommendations, and the interview.
 
 The prose lives in plain Markdown and is typeset into a polished, book-style PDF automatically.
 
 ## Read it
 
-- **PDF:** [`dist/How-to-Get-Into-Y-Combinator.pdf`](dist/How-to-Get-Into-Y-Combinator.pdf) — the typeset book.
-- **Source:** [`book/content.md`](book/content.md) — the same text in Markdown.
+- **PDF:** [`dist/How-to-Get-Into-Y-Combinator.pdf`](dist/How-to-Get-Into-Y-Combinator.pdf), the typeset book.
+- **Source:** [`book/content.md`](book/content.md), the same text in Markdown.
 
 ## Build it yourself
 
@@ -76,7 +76,7 @@ Then run `npm run build`.
 
 ## Questions?
 
-Contact me on LinkedIn: [linkedin.com/in/acarossio](https://www.linkedin.com/in/acarossio) or by email at antoine[at]caross.io.
+Contact me on LinkedIn: [linkedin.com/in/acarossio](https://www.linkedin.com/in/acarossio), or reach out through my contact page at [caross.io/contact](https://caross.io/contact/).
 
 ---
 

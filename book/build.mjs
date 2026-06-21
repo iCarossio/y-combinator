@@ -41,12 +41,12 @@ cuts.forEach((c, i) => {
 const esc = (s) => s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
 const slug = (s) => s.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/(^-|-$)/g, "");
 
-// Recurring call-to-action callout (drives readers to the author's LinkedIn).
+// Recurring call-to-action callout (drives readers to the author's LinkedIn and contact page).
 const ctaBox = cfg.cta
   ? `<aside class="cta">
   <div class="cta__title">${esc(cfg.cta.title)}</div>
   <p class="cta__text">${esc(cfg.cta.text)}</p>
-  <div class="cta__action"><span class="cta__in">in</span><a href="${esc(cfg.linkedinUrl)}">${esc(cfg.cta.action)}</a>${cfg.email ? `<span class="cta__email">${esc(cfg.email)}</span>` : ""}</div>
+  <div class="cta__action"><span class="cta__in">in</span><a href="${esc(cfg.linkedinUrl)}">${esc(cfg.cta.action)}</a>${cfg.contactUrl ? `<span class="cta__contact"><a href="${esc(cfg.contactUrl)}">${esc(cfg.contact)}</a></span>` : ""}</div>
 </aside>`
   : "";
 
@@ -109,7 +109,7 @@ for (const n of nodes) {
     </div>
   </div>
   <div class="body"><p>${esc(cfg.authorBio)}</p>${bodyHtml}
-    <p class="author-links">${esc(cfg.website)} &nbsp;·&nbsp; ${esc(cfg.linkedin)}</p>
+    <p class="author-links">${esc(cfg.website)}</p>
   </div>
 </section>`;
   } else if (n.type === "escape") {
@@ -174,7 +174,7 @@ const copyright = `
   <p><strong>${esc(cfg.title)} ${esc(cfg.titleHighlight)}</strong> &mdash; ${esc(cfg.edition)}.</p>
   <p>Copyright &copy; ${esc(cfg.year)} ${esc(cfg.author)}. All rights reserved.</p>
   <p>This guide reflects the author's personal observations and experience as a YC&nbsp;W23 founder. It is not affiliated with, endorsed by, or representative of Y&nbsp;Combinator. The Y&nbsp;Combinator name and logo are property of their respective owner and used here for reference only.</p>
-  <p>Written by ${esc(cfg.author)} &middot; ${esc(cfg.linkedin)}</p>
+  <p>Written by ${esc(cfg.author)} &middot; ${esc(cfg.website)}</p>
   <p>Typeset from Markdown with Paged.js. Set in EB&nbsp;Garamond and Inter.</p>
 </section>`;
 
@@ -198,13 +198,13 @@ const backcover = `
   </div>
   <div class="backcover__author">
     <img src="${cfg.authorPhoto}" alt="${esc(cfg.author)}"/>
-    <p><strong>${esc(cfg.author)}</strong> — ${esc(cfg.author)} is the co-founder &amp; CTO of Escape (YC&nbsp;W23, $18M Series A), a Forbes 30 Under 30 honoree, and a speaker on AI &amp; cybersecurity at RSA, Black Hat, and DEF CON. He went through YC in W23 and has since coached founders into the batch.</p>
+    <p><strong>${esc(cfg.author)}</strong> is the co-founder &amp; CTO of Escape (YC&nbsp;W23, $18M Series A), a Forbes 30 Under 30 honoree, and a speaker on AI &amp; cybersecurity at RSA, Black Hat, and DEF CON. He went through YC in W23 and has since coached founders into the batch.</p>
   </div>
   <div class="backcover__brand">
     <span>Written by the co-founder &amp; CTO of</span>
     <img src="${cfg.escapeLogo}" alt="Escape"/>
   </div>
-  <div class="backcover__foot">${esc(cfg.website)} &nbsp;·&nbsp; ${esc(cfg.linkedin)}</div>
+  <div class="backcover__foot">${esc(cfg.website)}</div>
 </section>`;
 
 // ---- Full document ---------------------------------------------------------
@@ -238,7 +238,13 @@ if (!existsSync(resolve(root, "book/fonts/eb-garamond-400.woff2"))) {
 }
 const out = resolve(distDir, "How-to-Get-Into-Y-Combinator.pdf");
 const cli = resolve(root, "node_modules/pagedjs-cli/src/cli.js");
-const r = spawnSync(process.execPath, [cli, htmlPath, "-o", out], { stdio: "inherit" });
+// Chromium can't use its sandbox inside CI containers (no usable SUID sandbox),
+// so launch it with --no-sandbox. Harmless locally.
+const r = spawnSync(
+  process.execPath,
+  [cli, htmlPath, "-o", out, "--browserArgs", "--no-sandbox,--disable-setuid-sandbox"],
+  { stdio: "inherit" }
+);
 if (r.status !== 0) process.exit(r.status ?? 1);
 console.log(`✓ built ${out}`);
 
