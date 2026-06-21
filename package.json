@@ -1,0 +1,18 @@
+{
+  "name": "yc-application-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "How to Get Into Y Combinator — a typeset book built from Markdown.",
+  "type": "module",
+  "scripts": {
+    "build": "node book/build.mjs",
+    "fonts": "node book/fetch-fonts.mjs"
+  },
+  "dependencies": {
+    "@fontsource/eb-garamond": "^5.1.0",
+    "@fontsource/inter": "^5.1.0",
+    "markdown-it": "^14.1.0",
+    "markdown-it-attrs": "^4.3.1",
+    "pagedjs-cli": "^0.4.3"
+  }
+}

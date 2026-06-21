@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+
+# intermediate build output (generated HTML)
+build/
+
+# OS cruft
+.DS_Store
+**/.DS_Store
+.gstack/

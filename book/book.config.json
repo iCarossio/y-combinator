@@ -1,0 +1,27 @@
+{
+  "title": "How to Get Into",
+  "titleHighlight": "Y Combinator",
+  "subtitle": "A methodical, reverse-engineered guide to the application and the interview",
+  "edition": "First Edition",
+  "author": "Antoine Carossio",
+  "authorTagline": "Co-founder & CTO of Escape · YC W23",
+  "authorCredentials": "Forbes 30 Under 30 · École Polytechnique × HEC Paris · ex-Apple AI Researcher · RSA / Black Hat / DEF CON speaker",
+  "authorBio": "Antoine Carossio is the co-founder and CTO of Escape, the AI-native offensive security platform he took from zero to 100+ enterprise customers and an $18M Series A led by Balderton Capital. He went through Y Combinator in the W23 batch. Before Escape he was an AI researcher at Apple and a penetration tester for the French Ministry for the Armed Forces, and he holds a double master's from École Polytechnique and HEC Paris. He speaks on AI and cybersecurity at RSA, Black Hat, and DEF CON, advises Tier-1 VC funds on technical due diligence, and was named to the Forbes 30 Under 30. Since his own batch he has mentored a number of startups that went on to be admitted to YC.",
+  "authorPhoto": "../assets/author.jpg",
+  "logo": "../assets/y-combinator-logo-vector.svg",
+  "escapeLogo": "../assets/escape-logo.svg",
+  "linkedin": "linkedin.com/in/acarossio",
+  "website": "caross.io",
+  "spineSeries": "A Founder's Field Guide",
+  "coverByline": "by the co-founder & CTO of Escape (YC W23 · $18M Series A)",
+  "backTagline": "YC selection is a process you can reverse-engineer and prepare for.",
+  "backBlurb": "Most applications are rejected for the same reasons. This guide breaks the written application and the 10-minute interview down into a single repeatable framework — product-market fit reasoning — and shows, concretely, how to answer any question the right way. It is written by a founder who went through W23 and has since coached startups into the batch.",
+  "backBullets": [
+    "The PMF framework: the five pillars behind every answer",
+    "Why specificity is the universal tell — and how to add it",
+    "How to prepare for the interview without over-rehearsing",
+    "Recommendations, momentum, and applying every batch"
+  ],
+  "escapeBlurb": "Escape is the AI-native offensive security platform. Its agents continuously discover, test, and fix vulnerabilities directly inside engineering workflows — attack-surface management, business-logic-aware DAST, and continuous AI pentesting. Founded in 2020 and a member of the YC W23 batch, Escape raised an $18M Series A led by Balderton Capital (with Uncorrelated Ventures, IRIS, and Y Combinator) and is trusted by 2,000+ security teams worldwide.",
+  "year": "2026"
+}
